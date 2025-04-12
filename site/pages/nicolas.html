@@ -1,19 +1,101 @@
 <!DOCTYPE html>
-<html>
-    <head>
-
-        <title>Exercício Front-End I Grupo 2</title>
-    </head>
-    <body>
-        <header>
-            <h1>Nicolas Arthur Raulino Oliveira</h1>
-            <hr>
-            <a href="../index.html">Página inicial</a>
-        </header>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página - Nicolas Arthur</title>
+</head>
+<body>
+    <header id="topo">
+        <h1>Aluno: Nicolas Arthur Raulino Oliveira</h1>
+        <h2>Grupo 2</h2>
+        <h2><a href="../index.html">Voltar para página inicial</a></h2>
         <hr>
+        <h1><b>Viagem dos sonhos para o Canadá!</b></h1>
+        <p>O Canadá é um país fascinante, repleto de paisagens deslumbrantes, cidades vibrantes e uma rica diversidade cultural. Seja para explorar suas montanhas majestosas, lagos cristalinos ou cidades modernas, este destino oferece experiências únicas para todos os tipos de viajantes.</p>
+        <img src="../resources/img/canada.jpg" alt="Paisagem do Canadá" width="100%">
+    </header>
+    <main>
         <section>
-            <h2>Viagem dos sonhos!</h2>
-            <img src="" alt="Canada" width="500px">
+            <h2>Informações sobre o Canadá</h2>
+            <p>O Canadá é conhecido por sua hospitalidade, segurança e qualidade de vida. Além disso, é um país multicultural, onde você pode experimentar diferentes culturas e tradições. As paisagens naturais, como as Montanhas Rochosas e as Cataratas do Niágara, são de tirar o fôlego, enquanto cidades como Toronto, Vancouver e Montreal oferecem uma mistura de história e modernidade.</p>
+            <ul>
+                <li><strong>Idiomas oficiais:</strong> Inglês e Francês</li>
+                <li><strong>Moeda:</strong> Dólar Canadense (CAD)</li>
+                <li><strong>Melhor época para visitar:</strong> Verão (Junho a Agosto) e Outono (Setembro a Novembro)</li>
+            </ul>
         </section>
-    </body>
+        <section>
+            <h2>Galeria de Imagens</h2>
+            <div>
+                <a href="https://pt.wikipedia.org/wiki/Cataratas_do_Ni%C3%A1gara" target="_blank">
+                    <img src="../resources/img/niagara.jpg" alt="Cataratas do Niágara" width="300px">
+                </a>
+                <a href="https://pt.wikipedia.org/wiki/Parque_Nacional_Banff" target="_blank">
+                    <img src="../resources/img/banff.jpg" alt="Parque Nacional Banff" width="266px">
+                </a>
+                <a href="https://pt.wikipedia.org/wiki/Toronto" target="_blank">
+                    <img src="../resources/img/toronto.jpg" alt="Toronto" width="382px">
+                </a>
+            </div>
+        </section>
+        <section>
+            <h2>Música Típica</h2>
+            <audio controls>
+                <source src="../resources/audio/musica_canada.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <p> "The Log Driver's Waltz", música típica canadense porque ela reflete a rica herança cultural do país, incluindo influências indígenas e europeias. Essa canção folclórica celebra a vida dos trabalhadores canadenses que conduziam toras pelos rios, uma profissão histórica e essencial para o desenvolvimento do país.</p>
+        </section>
+        <section>
+            <h2>Itinerário</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Atividades</th>
+                        <th>Custo Estimado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Visita às Cataratas do Niágara</td>
+                        <td>R$ 500</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Exploração do Parque Nacional Banff</td>
+                        <td>R$ 700</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Tour pela cidade de Toronto</td>
+                        <td>R$ 400</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Quero ir junto!</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="data">Data de inicio da Viagem: </label>
+                <input type="date" id="InicioViagem" name="InicioViagem" required><br>  
+                <label for="data">Data de Volta da Viagem: </label>
+                <input type="date" id="VoltaViagem" name="VoltaViagem" required><br>  
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>Obrigado por visitar! Página criada por Nicolas Arthur Raulino Oliveira.</p>
+        <a href="#topo">Voltar ao topo</a>
+    </footer>
+</body>
 </html>
