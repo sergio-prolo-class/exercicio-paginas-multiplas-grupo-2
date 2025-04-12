@@ -1,14 +1,119 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="pt-br">
 
-    <title>Exercício Grupo 2</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seu Nome Aqui">
+    <title>One Piece - Minha Série Favorita</title>
 </head>
+
 <body>
-    <h1>Exercício Front-End I</h1>
-    <h2>Grupo 2</h2>
-    <a href="../index.html">Voltar para página inicial</a> <br>
-    <hr>
-    <h3>Aluno: Marcus</h3>
+
+<header>
+    <h1>ONE PIECE</h1>
+    <img src="site\resources\img\poster-one-piece.jpg" alt="Pôster da série One Piece" width="300">
+    <p><strong>One Piece</strong> conta a história de Monkey D. Luffy, um jovem pirata
+        que sonha em se tornar o Rei dos Piratas. Para isso, ele precisa encontrar o <em>One Piece</em>,
+        um tesouro lendário deixado pelo rei dos piratas Gol D. Roger.</p>
+    <p>Escolhi One Piece pois é uma obra que abrange tópicos como amizade, justiça, liberdade e perseverança,
+        tudo com muita emoção e aventura.</p>
+</header>
+
+<section>
+    <h2>Informações da Série</h2>
+    <dl>
+        <dt>Direção:</dt>
+        <dd>Yasunori Koyama</dd>
+        <dt>Ano de lançamento:</dt>
+        <dd>1999</dd>
+        <dt>Gênero:</dt>
+        <dd>Ação, Aventura, Fantasia</dd>
+    </dl>
+</section>
+
+<section>
+    <h2>Galeria de Cenas</h2>
+    <img src="site\resources\img\luffy-vs-kaido.jpg" alt="Luffy enfrentando Kaido" width="300">
+    <img src="site\resources\img\bando-do-chapeu-de-palha.jpg" alt="Bando do Chapéu de Palha reunido" width="300">
+    <img src="site\resources\img\gol-d-roger.jpg" alt="Gol D. Roger sorrindo antes de sua execução" width="300">
+</section>
+
+<section>
+    <h2>Trilha Sonora</h2>
+    <audio controls>
+        <source src="site\resources\audio\we-are.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <p>A música <strong>"We Are!"</strong> é o primeiro tema de abertura da série. Composta por <em>Kohei Tanaka</em>,
+        essa canção simboliza o espírito aventureiro e motivador do anime, sendo tocada no início da jornada de Luffy.</p>
+</section>
+
+<section>
+    <h2>Elenco Principal</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Personagem</th>
+                <th>Papel</th>
+                <th>Ator/Dublador</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monkey D. Luffy</td>
+                <td>Protagonista</td>
+                <td><a href="https://www.imdb.com/name/nm7838852/" target="_blank">Inaki Godoy</a></td>
+            </tr>
+            <tr>
+                <td>Roronoa Zoro</td>
+                <td>Suporte</td>
+                <td><a href="https://www.imdb.com/name/nm5018289/" target="_blank">Mackenyu</a></td>
+            </tr>
+            <tr>
+                <td>Buggy</td>
+                <td>Vilão</td>
+                <td><a href="https://www.imdb.com/name/nm1831496/" target="_blank">Jeff Ward</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Envie sua Opinião!</h2>
+    <form>
+        <p>Nome:<br>
+            <label>
+                <input type="text" name="nome" required>
+            </label>
+        </p>
+
+        <p>Email:<br>
+            <label>
+                <input type="email" name="email" required>
+            </label>
+        </p>
+
+        <p>Nota (0 a 10):<br>
+            <label>
+                <input type="number" name="nota" min="0" max="10" required>
+            </label>
+        </p>
+
+        <p>Um comentário:<br>
+            <label>
+                <textarea name="comentario" rows="4" cols="30"></textarea>
+            </label>
+        </p>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>Obrigado por visitar minha página! Criado por <strong>Marcus Jhuan</strong>.</p>
+    <p><a href="#topo">Voltar ao topo</a> | <a href="index.html">Voltar ao índice</a></p>
+</footer>
+
 </body>
 </html>
