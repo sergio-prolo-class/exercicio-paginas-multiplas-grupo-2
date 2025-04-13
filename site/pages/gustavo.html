@@ -1,14 +1,114 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="pt-br">
 
-    <title>Exercício Grupo 2</title>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>O Rei Leão - Meu Filme Favorito</title>
 </head>
+
 <body>
-    <h1>Exercício Front-End I</h1>
-    <h2>Grupo 2</h2>
-    <a href="../index.html">Voltar para página inicial</a> <br>
-    <hr>
-    <h3>Aluno: Gustavo</h3>
+
+<header id="topo">
+    <h1>O REI LEÃO</h1>
+    <img src="../resources/img/poster-rei-leao.jpg" alt="Pôster do filme O Rei Leão" width="500" height="300">
+    <p><strong>O Rei Leão</strong> é um clássico da Disney, inspirado em shakespeare, que conta a história de Simba, um jovem leão que deve enfrentar seu destino como legítimo rei das savanas após o trágico assassinato de seu pai, Mufasa.</p>
+    <p>Escolhi O Rei Leão porque é uma obra atemporal que aborda temas como responsabilidade, ciclo da vida, perda e crescimento pessoal.</p>
+</header>
+
+<section>
+    <h2>Informações do Filme</h2>
+    <dl>
+        <dt>Direção:</dt>
+        <dd>Roger Allers e Rob Minkoff</dd>
+        <dt>Ano de lançamento:</dt>
+        <dd>1994</dd>
+        <dt>Gênero:</dt>
+        <dd>Animação, Musical, Drama</dd>
+    </dl>
+</section>
+
+<section>
+    <h2>Galeria de Cenas</h2>
+    <img src="../resources/img/Traicao.png" alt="Traição de Scar" width="300" height="200">
+    <img src="../resources/img/hakuna.jpg" alt="Simba, Timão e Pumba cantando Hakuna Matata" width="300" height="200">
+    <img src="../resources/img/batalha scar.jpg" alt="Simba enfrentando Scar na batalha final" width="300" height="200">
+</section>
+
+<section>
+    <h2>Trilha Sonora</h2>
+    <audio controls>
+        <source src="../resources/audio/The Lion King - Circle of Life.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <p>A música <strong>"Circle of Life"</strong> é a icônica abertura do filme. Composta por <em>Elton John</em>, essa canção representa perfeitamente o tema central do filme sobre o ciclo da vida.</p>
+</section>
+
+<section>
+    <h2>Elenco Principal (vozes originais)</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Personagem</th>
+                <th>Papel</th>
+                <th>Dublador</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Simba (adulto)</td>
+                <td>Protagonista</td>
+                <td><a href="https://www.imdb.com/pt/name/nm0000111/?ref_=nv_sr_srsg_0_tt_0_nm_8_in_0_q_Matthew%2520b" target="_blank">Matthew Broderick</a></td>
+            </tr>
+            <tr>
+                <td>Mufasa</td>
+                <td>Pai de Simba</td>
+                <td><a href="https://www.imdb.com/pt/name/nm0000469/?ref_=nv_sr_srsg_0_tt_0_nm_8_in_0_q_James%2520E" target="_blank">James Earl Jones</a></td>
+            </tr>
+            <tr>
+                <td>Scar</td>
+                <td>Vilão</td>
+                <td><a href="https://www.imdb.com/pt/name/nm0000460/?ref_=nv_sr_srsg_0_tt_0_nm_2_in_0_q_eremy%2520Irons" target="_blank">Jeremy Irons</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Envie sua Opinião!</h2>
+    <form>
+        <p>Nome:<br>
+            <label>
+                <input type="text" name="nome" required>
+            </label>
+        </p>
+
+        <p>Email:<br>
+            <label>
+                <input type="email" name="email" required>
+            </label>
+        </p>
+
+        <p>Nota (0 a 10):<br>
+            <label>
+                <input type="number" name="nota" min="0" max="10" required>
+            </label>
+        </p>
+
+        <p>Um comentário:<br>
+            <label>
+                <textarea name="comentario" rows="4" cols="30"></textarea>
+            </label>
+        </p>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>Obrigado por visitar minha página! Criado por <strong>Seu Nome</strong>.</p>
+    <a href = "#topo"> Voltar ao topo</a> | <a href="../index.html">Voltar ao índice</a>
+</footer>
+
 </body>
-</html> 
+</html>
