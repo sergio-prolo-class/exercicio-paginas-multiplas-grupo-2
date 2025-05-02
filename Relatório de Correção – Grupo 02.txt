@@ -1,0 +1,57 @@
+Relatório de Correção – Grupo 02
+Índice
+O cabeçalho deveria ser “Índice – Grupo 2”.
+
+
+O elemento <meta name="viewport" content="width=device-width, initial-scale=1.0"> foi utilizado, mas não foi ensinado.
+
+
+O uso de <link rel="stylesheet" href="estilo.css"> também não foi ensinado.
+
+
+Os links para o GitHub de Gustavo Ribeiro e Marcus Jhuan Epifanio Lima não funcionam.
+
+
+Problemas com imagens impediram a validação do documento.
+
+
+Gustavo
+O rodapé deveria conter “Criado por [Seu Nome]”, mas não há identificação do autor.
+
+
+A página não apresenta informações sobre o autor.
+
+
+Seria interessante utilizar <article> em vez de apenas <section>.
+
+
+Pequenos erros de HTML5 foram encontrados, mas não impediram a validação.
+
+
+Marcus Jhuan Epifanio Lima
+O documento não passou no validador por conter "bad values".
+
+
+Faltam informações sobre o autor.
+
+
+O botão para voltar ao topo/índice não funciona.
+
+
+Os elementos <meta name="viewport"> e <meta name="author"> foram utilizados, mas não foram ensinados.
+
+
+Sugestão: utilizar <article> além de <section>.
+
+
+Nicolas Arthur Raulino Oliveira
+O documento não passou no validador.
+
+
+Faltam informações sobre o autor.
+
+
+Não há lista descritiva (<dl>).
+
+
+Faltou o uso adequado de elementos semânticos.
